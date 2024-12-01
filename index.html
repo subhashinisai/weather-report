@@ -1,2 +1,52 @@
 <!DOCTYPE html>
-45gte
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-report</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  
+    <div class="container">
+        <div class="header">
+              <div class="search-box">
+                <input type="text" placeholder="Enter your location" class="input-box">
+                <button  class="fa-solid fa-magnifying-glass" id="searchBtn"></button>
+
+              </div>
+        </div>
+        <div class="weather-body">
+        <img src="../weather-report/assets/clear.png" alt="clear weather" class="weather-image">
+        <div class="weather-box">
+            <p class="temperature">0<sup>°C</sup></p>
+            <p class="description">Clear Sky</p>
+        </div>
+        <div class="weather-details">
+
+            <div class="humidity">
+                <i class="fa-sharp fa-solid fa-droplet"></i>
+                <div class="text">
+                    <span id="humidity">45%</span>
+                    <p>humidity</p>
+                </div>
+            </div>
+
+            <div class="wind">
+                <i class="fa-duotone fa-solid fa-wind"></i>
+                <div class="text">
+                    <span id="wind-speed">12 km/h</span>
+                    <p>wind speed</p>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </div>
+
+
+
+      <script src="script.js"></script>
+      <script src="https://kit.fontawesome.com/795c9df4a6.js" crossorigin="anonymous"></script>
+</body>
+</html> 
